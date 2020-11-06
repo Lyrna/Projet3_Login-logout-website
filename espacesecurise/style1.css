@@ -1,0 +1,218 @@
+body{
+    background: url(images/fond1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+    font-family: Arial, Ubuntu, 'Trebuchet MS', sans-serif;
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:3%;
+}
+/* Bordered form */
+form {
+    font-size:1em;
+    width:100%;
+    border-radius: 5px 50px 30px 15px; 
+    padding: 2.5em;
+    padding-top:1.7;
+    padding-bottom: 20px; 
+    -webkit-box-shadow: 0px 0px 90px 30px rgba(0,0,0,0.8);
+    -moz-box-shadow:    0px 0px 90px 30px rgba(0,0,0,0.8);
+    box-shadow:         0px 0px 90px 30px rgba(0,0,0,0.8);
+    animation:pulse 1.5s infinite;
+    animation-direction: alternate;
+}
+
+
+.detroit{
+    padding-bottom: 30px;
+    font-family:  arc, Ubuntu, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-left: 14%;
+    font-size:60px;
+}
+
+.becomehuman{
+    padding-bottom: 30px;
+    font-family: Verdana, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    font-size:18px;
+    padding-left: 16%;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    transform: translateX(20px);
+    transition: transform 2s;
+}
+
+.detroit1{
+    font-family:  arc, Ubuntu, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size:60px;
+    float: left;
+    margin-left : 10px;
+    transform:translateX(20px);
+    transition: transform 1s;
+}
+
+.detroit1:hover{
+    font-family:  arc, Ubuntu, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size:60px;
+    color:#9DDBD6;
+    float: left;
+    margin-left : 10px;
+    transform:translateX(40px);
+    transition: transform 1s, color 1s;
+    cursor: default;
+}
+
+.checkbox{
+    padding: 0px 0px 20px 5px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 1em 1.7px;
+    margin-bottom:2.9em;
+    margin-top: 0.4em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color:#22343A;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #154E55;
+    color: white;
+    padding: 1.1em 1.7em;
+    margin: 1.3em 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size:1em;
+}
+
+input[type=submit]:hover {
+    background-color: #081F38;
+    color: white;
+    font-weight: bold;
+    font-size:1em;
+}
+
+input[type=text]:hover, input[type=password]:hover{
+    background-color: #EFF0F0;
+}
+
+.logout{
+    margin-top:10%;
+}
+
+#content{
+    text-align:center;
+}
+
+.contente{
+    background-color: rgba(14, 14, 28, 0.8);
+    padding:30px;
+    padding-bottom: 60px;
+}
+
+.contente1{
+    background-color: rgba(14, 14, 28, 0.8);
+    padding:30px;
+    padding-bottom: 60px;
+    margin-top:10%;
+}
+
+a{
+    color:white; 
+    background-color:#2D8081;
+    border-radius:2px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;     
+    background-color:#0D545D;
+    border-radius:2px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#deconnexion{
+    width: 38%;
+    margin: 0 auto;
+    margin-top:10%;
+    font-weight: bold;
+}
+
+.titredeco{
+    font-size: 30px;
+}
+
+.descriptiondujeu{
+    text-align: justify;
+}
+
+#devenez{
+    font-size: 25px;
+}
+
+#synopsis{
+    font-size:30px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#motsforts{font-weight: bold;}
+
+#siteofficiel{
+    float:right;
+    margin:5px;
+}
+
+.twitter{
+    height:40px;
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+button{
+    background: none;
+    border:none;
+    cursor: pointer;
+    float:right;
+}
+
+button:hover{
+    opacity:0.7;
+    border:none;
+    cursor: pointer;
+
+}
+
+@keyframes pulse{
+    to{
+        box-shadow: 0px 0px 30px 10px rgba(0,0,0, 0.6);
+    }
+}
